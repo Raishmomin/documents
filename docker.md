@@ -26,7 +26,7 @@ Follow the official Docker post-install steps to manage Docker as a non-root use
 👉 docker run -d -p 3000:3000 --name front-end frontend
 
 ## Important Docker compose file for microservices
-👉 https://docs.docker.com/compose/install/standalone/
+👉 sudo curl -SL https://github.com/docker/compose/releases/download/v2.36.2/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
 👉 Dcoker-compose up
 👉 Docker-compose down
  
