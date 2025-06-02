@@ -21,7 +21,11 @@ Follow the official Docker post-install steps to manage Docker as a non-root use
 👉 [https://docs.docker.com/engine/install/linux-postinstall/](https://docs.docker.com/engine/install/linux-postinstall/)
 
 ---
+###for run images in background
 
+docker run -d -p 3000:3000 --name front-end frontend
+
+ 
 ## 🧰 Image & Container Commands
 
 | Task                    | Command                 | Description                     |
