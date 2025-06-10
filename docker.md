@@ -24,6 +24,8 @@ Follow the official Docker post-install steps to manage Docker as a non-root use
 ### for run images in background
 
 👉 docker run -d -p 3000:3000 --name front-end frontend
+### Run with env file 
+👉 docker run -d -p 3000:3000 --name frontend --env-file .env frontend
 
 ## Important Docker compose file for microservices
 👉 sudo curl -SL https://github.com/docker/compose/releases/download/v2.36.2/docker-compose-linux-x86_64 -o /usr/local/bin/docker-compose
